@@ -20,6 +20,7 @@ import org.jvi.swarm.test.cdi.api.Hello;
 public class RESTResource {
 	// -------------------- Constantes private --------------------
 
+	/** Hello bean*/
 	@Inject
 	private Hello m_hello;
 
